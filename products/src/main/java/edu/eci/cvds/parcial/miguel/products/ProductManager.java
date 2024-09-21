@@ -23,12 +23,16 @@ public class ProductManager implements ProductManage {
     }
 
     @Override
-    public void addItem(String name, float price) {
+    public Product addItem(String name, float price) {
+        Product res = null;
         if(checkUniqueItem(name)){
-            products.add(new Product(name, price));
+            res = new Product(name, price);
+            products.add(res);
         } else {
-            getProductByName(name).setPrice(price);
+            res = getProductByName(name);
+            res.setPrice(price);
         }
+        return res;
     }
 
 
