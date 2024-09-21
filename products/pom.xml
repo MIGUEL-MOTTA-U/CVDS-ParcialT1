@@ -91,7 +91,8 @@
 						</goals>
 						<configuration>
 							<excludes>
-								<exclude>edu/eci/cvds/parcial/miguel/products/</exclude>
+								<exclude>edu/eci/cvds/parcial/miguel/products/Product</exclude>
+								<exclude>edu/eci/cvds/parcial/miguel/products/ProductController</exclude>
 
 
 							</excludes>
