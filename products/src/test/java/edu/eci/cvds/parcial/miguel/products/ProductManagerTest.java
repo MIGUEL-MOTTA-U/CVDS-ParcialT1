@@ -4,10 +4,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.util.ArrayList;
+
+import java.util.ArrayList;
+
 @SpringBootTest
 class ProductManagerTest {
-    @Autowired
     private ProductManager productManager;
     @BeforeEach
     void setUp() {
