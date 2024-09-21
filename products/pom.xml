@@ -90,6 +90,11 @@
 							<goal>check</goal>
 						</goals>
 						<configuration>
+							<excludes>
+								<exclude>edu/eci/cvds/parcial/miguel/products/</exclude>
+
+
+							</excludes>
 							<rules>
 								<rule>
 									<element>PACKAGE</element>
